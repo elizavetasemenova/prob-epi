@@ -2,6 +2,8 @@
 
 This course will be taught during three weeks to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Studeis (AIMS)](https://aims.ac.za/), South Africa.
 
+If you notice any typos, mistakes or inconsistencies in these course notes, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
+
 Tentative outline of the course if presented below but might be adjusted during the course:
 
 
