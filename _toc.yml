@@ -6,5 +6,5 @@ root: 01_intro
 chapters:
 - file: 02_about.md
 - file: 03_intro_epi.md
-- file: 04_probability_distributions.md
+- file: 04_probability_distributions.ipynb
 - file: 05_intro_to_Numpyro.ipynb
