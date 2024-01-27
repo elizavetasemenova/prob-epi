@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 01_intro
+chapters:
+- file: 02_about.md
+- file: 03_intro_epi.md
+- file: 04_probability_distributions.md
+- file: 05_intro_to_Numpyro.ipynb
