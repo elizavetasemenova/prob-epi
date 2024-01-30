@@ -1,16 +1,16 @@
 # About this course
 
-This course will be taught during three weeks to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Studeis (AIMS)](https://aims.ac.za/), South Africa.
+This course will be taught during three weeks from 25 March to 12 April 2024 to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa.
 
 If you notice any typos, mistakes or inconsistencies in these course notes, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
-Tentative outline of the course if presented below but might be adjusted during the course:
+Tentative outline of the course is presented below but might be adjusted during the course.
 
 
 * <span style="color:orange">Week 1 - Probabilistic programming</span>.
     * Day 1
-        * Introduction to epidemiology.
-        * Probability distributions refresher. 
+        * Introduction to modelling in epidemiology
+        * Probability distributions refresher
         * Bayesian inference
         * Focus on priors
     * Day 2

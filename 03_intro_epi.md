@@ -1,13 +1,15 @@
 # Introduction to Modelling in epidemiology
 
-In this course we will consider a range of models used in epidemiology - from spatial statistics to disease transmission modelling. For each of such models we will consider a probabilistic formulation allowing for Bayesian inference. We will use a probabilistic programing language (PPL) to do that.
+In this course we will consider a range of models used in epidemiology - from spatial statistics to disease transmission modelling - and their probabilistic formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) Numpyro.
 
-Let's uncover each of the three key terms - **epidemioligy**, **probabilistic modelling** and **probablistic programming**. You can think of them as the 'Why?', 'What?' and 'How?' of this course, correspondingly.
+Let's uncover each of the three key terms of the course - **epidemioligy**, **probabilistic modelling** and **probablistic programming**. You can think of them as the 'What?', 'Why?' and 'How?' of the course, correspondingly.
 
 (epidemiology)=
 ## Epidemiology
 
-Epidemiology is the 'Why?' of this course, i.e. 'Why do we need to build the range of computational models that this course covers.'
+Epidemiology is the 'What?' of this course, i.e. 'What real-life phenomena do we want to study?. 
+
+The range of computational models which we will cover is motivated by questios in epidemiology and public health.
 
 Epidemiology is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyze *data* to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
 

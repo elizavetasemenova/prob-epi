@@ -1,4 +1,4 @@
-# Probabilistic Thinking, modelling and programming for Epidemiology.
+# Bayesian Modelling and Probabilistic Programming for Epidemiology.
 
 Welcome to the course!
 
