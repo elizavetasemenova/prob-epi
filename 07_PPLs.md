@@ -79,9 +79,9 @@ The list of currently existing PPLs is overwhelmingly long and only keeps growin
 to name a few.
 
 ## How to chose a PPL?
-- Functionality: Evaluate the language's functionality by examining the availability of a wide range of probability distributions and samplers,
-- ppenness to Customization: Consider whether the PPL allows you to define custom probability distributions and samplers,
-- performance: Some PPLs may offer optimizations or parallel processing capabilities to improve performance,
-- documentation: The availability of well-documented resources, including official documentation, tutorials, and guides, can significantly impact your learning curve and productivity. A well-documented PPL makes it easier to understand and use its features effectively.
-- community Support: An active and supportive community can be an invaluable resource when you encounter challenges or have questions while working with the PPL. Community forums, discussion groups, and user-contributed content can provide guidance and solutions. Dedicated meetups and conferences.
-- Integration: Consider whether the PPL can easily integrate with other tools and frameworks you may need for your project. Compatibility with libraries for data manipulation, visualization, or machine learning can streamline your workflow.
+- <font color='green'>Functionality</font>: Evaluate the language's functionality by examining the availability of a wide range of probability distributions and samplers,
+- <font color='green'>Oppenness to Customization</font>: Consider whether the PPL allows you to define custom probability distributions and samplers,
+- <font color='green'>Performance</font>: Some PPLs may offer optimizations or parallel processing capabilities to improve performance,
+- <font color='green'>Documentation</font>: The availability of well-documented resources, including official documentation, tutorials, and guides, can significantly impact your learning curve and productivity. A well-documented PPL makes it easier to understand and use its features effectively.
+- <font color='green'>Community Support</font>: An active and supportive community can be an invaluable resource when you encounter challenges or have questions while working with the PPL. Community forums, discussion groups, and user-contributed content can provide guidance and solutions. Dedicated meetups and conferences.
+- <font color='green'>Integration</font>: Consider whether the PPL can easily integrate with other tools and frameworks you may need for your project. Compatibility with libraries for data manipulation, visualization, or machine learning can streamline your workflow.
