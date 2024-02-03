@@ -1,6 +1,6 @@
 # About this course
 
-This course will be taught during three weeks from 25 March to 12 April 2024 to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa.
+These lecture notes cover the course which will be taught during three weeks from 25 March to 12 April 2024 to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. After the course, I plan to keep improving the materials since they will be helpful for future stundents and collaborators.
 
 If you notice any typos, mistakes or inconsistencies in these course notes, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
