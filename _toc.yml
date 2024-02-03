@@ -12,4 +12,5 @@ chapters:
 - file: 07_PPLs.md
 - file: 08_intro_to_Numpyro.ipynb
 - file: 09_Bayesian_workflow.ipynb
+- file: 10_logistic_regression.ipynb
 - file: 100_acknowledgements.md
