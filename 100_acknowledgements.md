@@ -4,3 +4,4 @@
 - Kira and James for writing together the DLI-23 practical
 - 2021 Statistical Rethinking (with Numpyro) reading group at Imperial: Swapnil, Iwona, Tim (Theo? Giovanni?)
 - Stan ODE co-authors
+- Lorenzo Ciardo for telling me about the Buffon's needle problem
