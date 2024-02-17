@@ -8,10 +8,11 @@ chapters:
 - file: 03_intro_epi.md
 - file: 04_probability_distributions.ipynb
 - file: 05_Bayesian_inference.ipynb
+- file: 05_focus_on_priors.ipynb
 - file: 06_Monte_Carlo_and_MCMC.ipynb
 - file: 07_PPLs.md
 - file: 08_intro_to_Numpyro.ipynb
 - file: 09_Bayesian_workflow.ipynb
 - file: 10_logistic_regression.ipynb
-- file: 11_hierarachical_modelling.ipynb
+- file: 11_hierarchical_modelling.ipynb
 - file: 100_acknowledgements.md
