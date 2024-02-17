@@ -1,15 +1,15 @@
 # Introduction to Modelling in epidemiology
 
-In this course we will consider a range of models used in epidemiology - from spatial statistics to disease transmission modelling - and their probabilistic formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) Numpyro.
+In this course we will consider a range of models used in epidemiology - from <font color='orange'>hierarchical modelling</font> and <font color='orange'>spatial statistics</font> to <font color='orange'>disease transmission modelling</font> - and their probabilistic formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) Numpyro.
 
-Let's uncover each of the three key terms of the course - **epidemioligy**, **probabilistic modelling** and **probablistic programming**. You can think of them as the 'What?', 'Why?' and 'How?' of the course, correspondingly.
+Let's uncover each of the three key terms of the course - **epidemioligy**, **Bayesian modelling** and **probablistic programming**. You can think of them as the 'What?', 'Why?' and 'How?' of the course, correspondingly.
 
 (epidemiology)=
 ## Epidemiology
 
-Epidemiology is the 'What?' of this course, i.e. 'What real-life phenomena do we want to study?. 
+Epidemiology is the 'What?' of this course, i.e. 'What real-life phenomena do we want to study?'
 
-The range of computational models which we will cover is motivated by questios in epidemiology and public health.
+The range of computational models which we will cover is motivated by questions in epidemiology and public health.
 
 Epidemiology is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyze *data* to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
 
@@ -17,29 +17,35 @@ Epidemiological studies are essential for understanding the health of population
 
 Key aspects of epidemiology include:
 
-- **Disease Surveillance:** Epidemiologists monitor the occurrence of diseases and health-related events over time and across different geographic areas. This involves tracking the number of cases, identifying outbreaks, and assessing trends in disease incidence and prevalence.
+- **Disease Surveillance:** Epidemiologists <font color='orange'>monitor</font> the occurrence of diseases and health-related events over time and across different geographic areas. This involves tracking the number of cases, identifying outbreaks, and assessing trends in disease incidence and prevalence.
 
-- **Outbreak Investigation:** Epidemiologists are often involved in investigating disease outbreaks, such as foodborne illnesses, infectious disease outbreaks, or clusters of chronic diseases. They work to identify the source of the outbreak and implement measures to contain and prevent further spread.
+- **Outbreak Investigation:** Epidemiologists are often involved in <font color='orange'>investigating</font> disease outbreaks, such as foodborne illnesses, infectious disease outbreaks, or clusters of chronic diseases. They work to identify the source of the outbreak and implement measures to contain and prevent further spread.
 
-- **Identifying Risk Factors:** Epidemiological studies aim to identify the factors that are associated with increases likelihood of developing a particular disease. These risk factors can include genetic predisposition, environmental exposures, lifestyle choices, and social determinants of health.
+```{margin}
+It is important to distinguish <font color='orange'>associative</font> stidies with those where researchers try to oncover <font color='orange'>causal</font> relashionships between risk factors and outcomes.
+```
+- **Identifying Risk Factors:** Epidemiological studies aim to identify the <font color='orange'>factors</font> that are <font color='orange'>associated</font> with increases likelihood of developing a particular disease. These risk factors can include genetic predisposition, environmental exposures, lifestyle choices, and social determinants of health.
 
-- **Disease Prevention and Control:** The insights gained from epidemiological research are crucial for designing and implementing public health interventions and policies aimed at preventing and controlling diseases. This may involve vaccination campaigns, health education programs, quarantine measures, and more.
+- **Disease Prevention and Control:** The insights gained from epidemiological research are crucial for designing and implementing public health <font color='orange'>interventions</font> and <font color='orange'>policies</font> aimed at preventing and controlling diseases. This may involve vaccination campaigns, health education programs, quarantine measures, and more.
 
-- **Public Health Planning:** Epidemiological data and findings play a vital role in informing public health planning and resource allocation. This includes assessing healthcare needs, identifying at-risk populations, and developing strategies to improve overall health outcomes.
+- **Public Health Planning:** Epidemiological data and findings play a vital role in informing public health planning and <font color='orange'>resource allocation</font>. This includes assessing healthcare needs, identifying at-risk populations, and developing strategies to improve overall health outcomes.
 
-- **Causality Assessment:** Epidemiologists use various study designs, including cohort studies, case-control studies, and randomized controlled trials, to determine if a specific factor or intervention causes a particular disease.
+- **Causality Assessment:** Epidemiologists use various study designs, including cohort studies, case-control studies, and randomized controlled trials, to determine if a specific factor or intervention <font color='orange'>causes</font> a particular disease.
 
-- **Epidemiological Models:** Mathematical and statistical models are frequently used in epidemiology to simulate disease spread and predict future trends. These models help in making informed decisions and planning interventions.
+- **Epidemiological Models:** Mathematical and statistical models are frequently used in epidemiology to simulate <font color='orange'>disease spread</font> and estimate <font color='orange'>disease distribution</font>. These models help in making informed decisions and planning interventions.
 
-Some models that we will build in this course are more relevant to **infectious**, and some to **chronic** diseases. The scope of applicbility will be clarified for each model once it is introduced. 
+Some models that we will build in this course are more relevant to **infectious**, and some to **chronic** diseases. The scope of applicability will be clarified for each model when it is introduced. 
 
-## Probabilistic modelling
+## Bayesian modelling
 
-Probabilistic modelling is the 'How?' of this course, i.e. 'How can we describe the generative process leading to the data we observe?'.
+```{margin}
+You musy have hearda lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will DGMs in this course too.
+```
+Bayesian modelling is the 'How?' of this course, i.e. 'How can we describe the <font color='orange'>generative process</font> leading to the data we observe?'. We will use the term 'Bayesian' and 'probabilistic' interchangeably.
 
 Probabilistic modeling is a mathematical and statistical framework used to incorporate **uncertainty** and **randomness** into models to account for variability and its sources in real-world phenomena. It involves using probability theory to describe and quantify the uncertainty associated with different events, outcomes, or variables. The primary goal of probabilistic modeling is to make predictions, infer information, or make decisions in situations where there is inherent uncertainty. Probabilistic modeling is a powerful tool for dealing with real-world complexities in a quantitative manner. It plays a crucial role in data analysis, machine learning, and decision-making processes where probabilistic reasoning is necessary.
 
-Probabilistic modelling in epidemiology helps epidemiologists and public health officials make informed decisions by quantifying uncertainty, simulating realistic disease dynamics, and assessing the potential impact of various interventions. It is a powerful tool for improving our understanding of health outcomes and guiding effective public health responses.
+Probabilistic modelling in epidemiology helps epidemiologists and public health officials make informed decisions by <font color='orange'>quantifying uncertainty</font>, simulating realistic disease dynamics, and assessing the potential impact of various interventions. It is a powerful tool for improving our understanding of health outcomes and guiding effective public health responses.
 
 %Here's why probabilistic modelling is important for epidemiology:
 
@@ -74,7 +80,7 @@ Some key concepts and components of probabilistic modeling are as follows:
 - **Monte Carlo Methods:** Monte Carlo methods are a class of computational techniques used to estimate complex probabilistic models through random sampling. They involve generating random samples from probability distributions to approximate quantities of interest.
 
 
-## Probabilistics programming
+## Probabilistic programming
 
 
 Probabilistic programming is a specialized approach to building and analyzing probabilistic models that offers several advantages for epidemiology and the study of infectious disease dynamics:

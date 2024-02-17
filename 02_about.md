@@ -2,24 +2,23 @@
 
 These lecture notes cover the course which will be taught during three weeks from 25 March to 12 April 2024 to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. After the course, I plan to keep improving the materials since they will be helpful for future stundents and collaborators.
 
-If you notice any typos, mistakes or inconsistencies in these course notes, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
+If you notice any typos, mistakes or inconsistencies, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
-Tentative outline of the course is presented below but might be adjusted during the course.
+Tentative outline of the course is presented below but might be adjusted at a later point.
 
 
 * <span style="color:orange">Week 1 - Probabilistic programming</span>.
     * Day 1
         * Introduction to modelling in epidemiology
-        * Probability distributions refresher
+        * Probability distributions and random variables
         * Bayesian inference
         * Focus on priors
     * Day 2
-    	* numerical methods to obtain posterior
-	    * MCMC by hand
-	    * convergence diagnostics
-	    * PPLs
-	    * Intro to Numpyro: model, inference, check convergence
-	    * Bayesian workflow: prior predictive and posterior predictive
+	    * The Monte Carlo methods and MCMC
+	    * Convergence diagnostics
+	    * Probabilistic programming
+	    * Introduction to Numpyro
+	    * Bayesian workflow
     * Day 3 
     	* logistic regression with Numpyro
         * Poisson and NegativeBinomial regression with Numpyro
