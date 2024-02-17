@@ -9,7 +9,8 @@ chapters:
 - file: 04_probability_distributions.ipynb
 - file: 05_Bayesian_inference.ipynb
 - file: 05_focus_on_priors.ipynb
-- file: 06_Monte_Carlo_and_MCMC.ipynb
+- file: 06a_Monte_Carlo.ipynb
+- file: 06b_MCMC.ipynb
 - file: 07_PPLs.md
 - file: 08_intro_to_Numpyro.ipynb
 - file: 09_Bayesian_workflow.ipynb
