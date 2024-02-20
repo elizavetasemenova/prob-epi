@@ -16,4 +16,6 @@ chapters:
 - file: 09_Bayesian_workflow.ipynb
 - file: 10_logistic_regression.ipynb
 - file: 11_hierarchical_modelling.ipynb
-- file: 100_acknowledgements.md
+- file: 12_BNN.ipynb
+- file: 13_GPs.ipynb
+- file: 999_acknowledgements.md

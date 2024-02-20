@@ -39,7 +39,7 @@ Some models that we will build in this course are more relevant to **infectious*
 ## Bayesian modelling
 
 ```{margin}
-You musy have hearda lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will DGMs in this course too.
+You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will DGMs in this course too.
 ```
 Bayesian modelling is the 'How?' of this course, i.e. 'How can we describe the <font color='orange'>generative process</font> leading to the data we observe?'. We will use the term 'Bayesian' and 'probabilistic' interchangeably.
 
