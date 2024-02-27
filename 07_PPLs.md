@@ -9,24 +9,6 @@ Probabilistic programming lies at the intersection of such domains as machine le
 - simplify the inference process,
 - automate inference.
 
-```{tikz, tikz-ex, fig.cap = "Funky tikz", fig.ext = 'png', cache=TRUE}
-\usetikzlibrary{arrows}
-\begin{tikzpicture}[node distance=2cm, auto,>=latex', thick, scale = 0.5]
-\node (P) {$P$};
-\node (B) [right of=P] {$B$};
-\node (A) [below of=P] {$A$};
-\node (C) [below of=B] {$C$};
-\node (P1) [node distance=1.4cm, left of=P, above of=P] {$\hat{P}$};
-\draw[->] (P) to node {$f$} (B);
-\draw[->] (P) to node [swap] {$g$} (A);
-\draw[->] (A) to node [swap] {$f$} (C);
-\draw[->] (B) to node {$g$} (C);
-\draw[->, bend right] (P1) to node [swap] {$\hat{g}$} (A);
-\draw[->, bend left] (P1) to node {$\hat{f}$} (B);
-\draw[->, dashed] (P1) to node {$k$} (P);
-\end{tikzpicture}
-```
-
 You can think of the overall logic hierarchy as
 
 Inference &rarr; Probabilistic Programming System   &rarr;  Probabilistic Programming Language  &rarr; Models  &rarr; Applications

@@ -8,10 +8,10 @@ g(\mu) = \eta,
 $$
 where $\mu$ represents the mean of the model, $E[y|\phi] = \mu$, and $\phi$ represent the other parameters of the model, such as, for example, the variance parameter in normal models or the shape parameter in gamma models. 
 
-The predictor function $\eta$ is usually linked to the mean parameter μ of the model (although it might also be another parameter of the model) by a strictly monotonic link function $g$ with inverse mapping 
+The predictor function $\eta$, often also called <font color='orange'>linear predictor</font>, is usually linked to the mean parameter μ of the model (although it might also be another parameter of the model) by a strictly monotonic link function $g$ with inverse mapping 
 
 $$
-\mu = g−1(\eta). 
+\mu = g^{−1}(\eta). 
 $$
 
 Often, $g$ is a differentiable function in order to be able to obtain the maximum likelihood estimate conveniently.
@@ -27,7 +27,8 @@ In the Bayesian framework, prior distributions have to be defined for the model 
 
 ## Normal model
 
-The observational model is a Normal distribution with parameters mean μ and noise variance σ2:
+The observational model is a Normal distribution with parameters mean $\mu$ and noise variance $\sigma^2$:
+
 $$
 p(y|\mu, \sigma) = \mathcal{N} (y|\mu, \sigma^2),\\
 \mu = \eta.
@@ -44,7 +45,7 @@ p(y|\mu) = \mathcal{\text{Pois}} (y|\mu),\\
 \log(\mu) =\eta
 $$
 
-In this case, the link function is, for example, the log function, in order to transform the values of the predictor function η, usually in the continuous real space, to the strictly positive or equal to zero range of values of the mean of the Poisson model.
+In this case, the link function is, for example, the log function, in order to transform the values of the predictor function $\eta$, usually in the continuous real space, to the strictly positive or equal to zero range of values of the mean of the Poisson model.
 
 ## Binomial model
 
@@ -62,12 +63,14 @@ In this model, the ’probit’ link function can also be used.
 ## Multinomial model
 
 In multi-class classification problems, the observations are multi-class-valued $(1, . . . , J )$. In this case, a multinomial observational model may be used:
+
 $$
 p(y) = \mathcal{\text{Multinom}}(p),
 $$
+
 where $p = (p_1,...,p_j,...,p_J)$ is a vector of probabilities of each possible class. In this model, in order the vector of probabilities $p$ of an observation to sum to 1, $\sum_{j=1}^J p_j = 1$.
 
-The probability of belonging to a class $j$ can be computed by the ’softmax’ transfor-mation
+The probability of belonging to a class $j$ can be computed by the ’softmax’ transformation
 
 $$
 p_j = \frac{\exp(\eta_j)}{\sum_{k=1}^J \exp(\eta_k)}.

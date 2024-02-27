@@ -1,13 +1,13 @@
 # Introduction to Modelling in epidemiology
 
-In this course we will consider a range of models used in epidemiology - from <font color='orange'>hierarchical modelling</font> and <font color='orange'>spatial statistics</font> to <font color='orange'>disease transmission modelling</font> - and their probabilistic formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) Numpyro.
+In this course we will consider a range of models used in epidemiology - from <font color='orange'>hierarchical modelling</font> and <font color='orange'>spatial statistics</font> to <font color='orange'>disease transmission modelling</font> - and their probabilistic (Bayesian) formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) <font color='teal'>Numpyro</font>.
 
-Let's uncover each of the three key terms of the course - **epidemioligy**, **Bayesian modelling** and **probablistic programming**. You can think of them as the 'What?', 'Why?' and 'How?' of the course, correspondingly.
+Let's uncover each of the three key terms of the course - **epidemioligy**, **Bayesian modelling** and **probablistic programming**. You can think of them as the 'Why?', 'What?' and 'How?' of the course, correspondingly.
 
 (epidemiology)=
 ## Epidemiology
 
-Epidemiology is the 'What?' of this course, i.e. 'What real-life phenomena do we want to study?'
+Epidemiology is the 'Why?' of this course, i.e. 'Why do we want to build the probabilistic models which we will consider?'. I.e. 'What real-life phenomena do we want the models to help us study?'
 
 The range of computational models which we will cover is motivated by questions in epidemiology and public health.
 
@@ -39,9 +39,9 @@ Some models that we will build in this course are more relevant to **infectious*
 ## Bayesian modelling
 
 ```{margin}
-You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will DGMs in this course too.
+You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will touch DGMs in this course too.
 ```
-Bayesian modelling is the 'How?' of this course, i.e. 'How can we describe the <font color='orange'>generative process</font> leading to the data we observe?'. We will use the term 'Bayesian' and 'probabilistic' interchangeably.
+Bayesian modelling is the 'What?' of this course, i.e. 'What models can describe the <font color='orange'>generative process</font> leading to the data we observe?'. We will use the term 'Bayesian' and 'probabilistic' interchangeably.
 
 Probabilistic modeling is a mathematical and statistical framework used to incorporate **uncertainty** and **randomness** into models to account for variability and its sources in real-world phenomena. It involves using probability theory to describe and quantify the uncertainty associated with different events, outcomes, or variables. The primary goal of probabilistic modeling is to make predictions, infer information, or make decisions in situations where there is inherent uncertainty. Probabilistic modeling is a powerful tool for dealing with real-world complexities in a quantitative manner. It plays a crucial role in data analysis, machine learning, and decision-making processes where probabilistic reasoning is necessary.
 

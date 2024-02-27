@@ -4,7 +4,26 @@ These lecture notes cover the course which will be taught during three weeks fro
 
 If you notice any typos, mistakes or inconsistencies, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
-Tentative outline of the course is presented below but might be adjusted at a later point.
+We will cover such topics as Bayesian inference, hierarchical modelling, spatial statistics and Gaussian processes, disease transmission modelling and ordinary differential equations. We will build probabilistic models and perform inference using Numpyro in a fully Bayesian manner to characterise uncertainty of the modelled quantities.
+
+Although the course is primarily *compuational* in nature, the models we will examine are inspired by the typical modeling practices found in epidemiology.
+
+Tentative outline of the course is presented below (but might be adjusted during the course).
+
+* <span style="color:orange">Week 1</span>
+    * Bayesian inference
+    * Probabilistic programming
+    * Bayesian workflow
+    * Hierarchical Bayesian models
+* <span style="color:orange">Week 2</span>
+    * Gaussain Processes
+    * spatial modelling
+    * Bayesian optimisation and active learning
+* <span style="color:orange">Week 3</span>
+    * infectious disease modelling
+    * Deep generative models and how they can help
+
+
 
 
 * <span style="color:orange">Week 1 - Probabilistic programming</span>.
