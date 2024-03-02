@@ -18,7 +18,8 @@ chapters:
 - file: 10b_logistic_regression.ipynb
 - file: 11_hierarchical_modelling.ipynb
 - file: 12_BNN.ipynb
-- file: 13_GP_priors.ipynb
+- file: 13a_AR.ipynb
+- file: 13b_GP_priors.ipynb
 - file: 14_GP_inference.ipynb
 - file: 15_geostatistics.ipynb
 - file: 16_areal_data.ipynb
