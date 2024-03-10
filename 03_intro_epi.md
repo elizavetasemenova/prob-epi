@@ -2,7 +2,7 @@
 
 In this course we will consider a range of models used in epidemiology - from <font color='orange'>hierarchical modelling</font> and <font color='orange'>spatial statistics</font> to <font color='orange'>disease transmission modelling</font> - and their probabilistic (Bayesian) formulation. In order to perform Bayesian inference we will use the probabilistic programing language (PPL) <font color='teal'>Numpyro</font>.
 
-Let's uncover each of the three key terms of the course - **epidemioligy**, **Bayesian modelling** and **probablistic programming**. You can think of them as the 'Why?', 'What?' and 'How?' of the course, correspondingly.
+Let's uncover each of the three key terms of the course - **epidemiology**, **Bayesian modelling** and **probablistic programming**. You can think of them as the 'Why?', 'What?' and 'How?' of the course, correspondingly.
 
 (epidemiology)=
 ## Epidemiology
@@ -71,7 +71,7 @@ Some key concepts and components of probabilistic modeling are as follows:
 
 - **Random Variables:** In probabilistic modeling, random variables are used to represent uncertain quantities or events. These variables can take on different values with associated probabilities.
 
-- **Probability Distributions:** A probability distribution describes how the values of a random variable are distributed or spread out. Common probability distributions used in epidemiological modelling include the normal distribution, binomial distribution, Poisson distribution, and many others. 
+- **Probability Distributions:** A probability distribution describes how the values of a random variable are distributed or spread out.
 
 - **Parameters:** Probability distributions are often characterized by parameters that determine their shape and behavior. For example, the mean and standard deviation of a normal distribution are parameters that describe its central tendency and spread.
 
@@ -99,10 +99,17 @@ Probabilistic programming is a specialized approach to building and analyzing pr
 
 - **Model Selection and Comparison:** Epidemiologists often need to compare different model structures or assess the fit of alternative hypotheses. Probabilistic programming facilitates model selection and comparison through techniques like Bayesian model averaging and model evidence calculation.
 
-- **Real-time Updates:** In the context of infectious disease outbreaks, probabilistic programming allows for real-time updates of models as new data becomes available. This adaptability is critical for guiding public health responses during rapidly evolving situations.
-
 - **Transparent Communication:** Probabilistic programming encourages transparency in modelling and analysis. Researchers can clearly specify their assumptions, priors, and likelihood functions, making it easier to communicate and collaborate with other experts and stakeholders.
 
 - **Extensible Libraries:** Probabilistic programming languages often come with extensive libraries and tools for model development, inference, and visualization, reducing the implementation and computation burden for epidemiologists.
 
 In summary, probabilistic programming is a valuable tool for epidemiologists because it offers a flexible and powerful framework for modelling disease dynamics, quantifying uncertainty, and making data-informed decisions. It enhances the precision and transparency of epidemiological research, ultimately contributing to better public health outcomes.
+
+
+`````{admonition} Task
+:class: tip
+Find an example of a publication using Bayesian inference for epidemiology. For example, in spatial statistics, or disease transmission modelling. 
+
+- What Bayesian methods (MCMC / VI / ABC / etc) and models were used in the paper? 
+- What inference tools were used?
+`````

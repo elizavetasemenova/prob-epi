@@ -23,4 +23,6 @@ chapters:
 - file: 14_GP_inference.ipynb
 - file: 15_geostatistics.ipynb
 - file: 16_areal_data.ipynb
+- file: 20a_ODEs.ipynb
+- file: 20b_ID_modelling.ipynb
 - file: 999_acknowledgements.md
