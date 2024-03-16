@@ -3,3 +3,9 @@ matplotlib
 numpy
 ghp-import
 sphinxcontrib-tikz
+numpyro
+jax
+geopandas
+arviz
+seaborn
+pyppeteer
