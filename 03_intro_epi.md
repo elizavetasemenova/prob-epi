@@ -7,17 +7,19 @@ Let's uncover each of the three key terms of the course - **epidemiology**, **Ba
 (epidemiology)=
 ## Epidemiology
 
-Epidemiology is the 'Why?' of this course, i.e. 'Why do we want to build the probabilistic models which we will consider?'. I.e. 'What real-life phenomena do we want the models to help us study?'
+Epidemiology serves as the underlying rationale in this course, explaining <font color='orange'>WHY</font> we develop the probabilistic models we'll be examining. Essentially, it addresses the question: 'What real-world phenomena are we aiming to analyze using these models?'
 
-The range of computational models which we will cover is motivated by questions in epidemiology and public health.
-
-Epidemiology is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyze *data* to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
+<font color='orange'>Epidemiology</font> is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyze *data* to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
 
 Epidemiological studies are essential for understanding the health of populations, identifying health disparities, and guiding public health efforts to improve the well-being of communities and societies.
 
-Key aspects of epidemiology include:
+Here is a few examples of epidemiological study types.
 
-- **Disease Surveillance:** Epidemiologists <font color='orange'>monitor</font> the occurrence of diseases and health-related events over time and across different geographic areas. This involves tracking the number of cases, identifying outbreaks, and assessing trends in disease incidence and prevalence.
+
+```{margin}
+If the surveillance tackles purely the temporal development of a health outcome, it suffices to construct temporal models. If space is also of interest, one needs to build spatial or spatiotemporal models.
+```
+- **Disease Surveillance:** Epidemiologists <font color='orange'>monitor</font> the occurrence of diseases and health-related events over <font color='orange'>time</font> and across different <font color='orange'>geographic areas</font>. This involves tracking the number of cases, identifying outbreaks, and assessing trends in disease incidence and prevalence. Disease surveillance can be conducted for both infectious and non-infectious diseases.
 
 - **Outbreak Investigation:** Epidemiologists are often involved in <font color='orange'>investigating</font> disease outbreaks, such as foodborne illnesses, infectious disease outbreaks, or clusters of chronic diseases. They work to identify the source of the outbreak and implement measures to contain and prevent further spread.
 
@@ -30,54 +32,34 @@ It is important to distinguish <font color='orange'>associative</font> stidies w
 
 - **Public Health Planning:** Epidemiological data and findings play a vital role in informing public health planning and <font color='orange'>resource allocation</font>. This includes assessing healthcare needs, identifying at-risk populations, and developing strategies to improve overall health outcomes.
 
-- **Causality Assessment:** Epidemiologists use various study designs, including cohort studies, case-control studies, and randomized controlled trials, to determine if a specific factor or intervention <font color='orange'>causes</font> a particular disease.
+- **Causality Assessment:** Epidemiologists use various study designs, including cohort studies, case-control studies, and randomized controlled trials, to determine if a specific factor or intervention <font color='orange'>causes</font> a particular health outcome.
 
-- **Epidemiological Models:** Mathematical and statistical models are frequently used in epidemiology to simulate <font color='orange'>disease spread</font> and estimate <font color='orange'>disease distribution</font>. These models help in making informed decisions and planning interventions.
+Mathematical and statistical models are frequently used in epidemiology to simulate <font color='orange'>disease spread</font> and estimate <font color='orange'>disease distribution</font>. These models help in making informed decisions and planning interventions.
 
-Some models that we will build in this course are more relevant to **infectious**, and some to **chronic** diseases. The scope of applicability will be clarified for each model when it is introduced. 
+Some models that we will build in this course are more relevant to <font color='orange'>infectious</font>, and some to <font color='orange'>chronic</font> diseases. The scope of applicability will be clarified for each model when it is introduced. 
 
 ## Bayesian modelling
 
 ```{margin}
 You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will touch DGMs in this course too.
 ```
-Bayesian modelling is the 'What?' of this course, i.e. 'What models can describe the <font color='orange'>generative process</font> leading to the data we observe?'. We will use the term 'Bayesian' and 'probabilistic' interchangeably.
+Bayesian modelling represents the fundamental focus of this course, addressing the question of "<font color='orange'>WHAT</font> models can describe the <font color='orange'>generative process</font> behind the observed data?" Throughout the course, we will use the terms "Bayesian" and "probabilistic" interchangeably.
 
-Probabilistic modeling is a mathematical and statistical framework used to incorporate **uncertainty** and **randomness** into models to account for variability and its sources in real-world phenomena. It involves using probability theory to describe and quantify the uncertainty associated with different events, outcomes, or variables. The primary goal of probabilistic modeling is to make predictions, infer information, or make decisions in situations where there is inherent uncertainty. Probabilistic modeling is a powerful tool for dealing with real-world complexities in a quantitative manner. It plays a crucial role in data analysis, machine learning, and decision-making processes where probabilistic reasoning is necessary.
+Probabilistic modelling is a mathematical and statistical framework used to incorporate <font color='orange'>uncertainty</font> and <font color='orange'>randomness</font> into models to <font color='orange'>account for variability</font> and its sources in real-world phenomena. It involves using probability theory to describe and quantify the uncertainty associated with different events, outcomes, or variables. The primary goal of probabilistic modelling is to make predictions, infer information, or make decisions in situations where there is inherent uncertainty. Probabilistic modelling is a powerful tool for dealing with real-world complexities in a quantitative manner. It plays a crucial role in data analysis, machine learning, and decision-making processes where probabilistic reasoning is necessary.
 
 Probabilistic modelling in epidemiology helps epidemiologists and public health officials make informed decisions by <font color='orange'>quantifying uncertainty</font>, simulating realistic disease dynamics, and assessing the potential impact of various interventions. It is a powerful tool for improving our understanding of health outcomes and guiding effective public health responses.
 
-%Here's why probabilistic modelling is important for epidemiology:
+Some key concepts and components of probabilistic modelling are as follows:
 
-%- **Capturing Uncertainty:** Epidemics are inherently uncertain processes influenced by numerous variables, including human behavior, environmental factors, and the biology of the infectious agent. Probabilistic models allow epidemiologists to account for this uncertainty by representing it explicitly. This is particularly important when making predictions or assessing the effectiveness of control measures.
+- **Random Variables:** In probabilistic modelling, random variables are used to represent uncertain quantities or <font color='orange'>events</font>. These variables can take on different values with associated probabilities.
 
-%- **Realistic Simulations:** Probabilistic models simulate disease spread and transmission more realistically by considering the variability in individual interactions, susceptibility, and infectiousness. This realism helps in better understanding the dynamics of epidemics and how they may evolve over time.
-
-%- **Data Integration:** Epidemiological data often contain inherent variability and noise. Probabilistic models can incorporate this variability and provide a framework for data assimilation and model calibration. This helps in refining models to fit observed data more accurately.
-
-%- **Quantifying Risk:** Probabilistic models can quantify the likelihood of various outcomes, such as the probability of an outbreak occurring, the probability of disease transmission in a specific setting, or the probability of a particular intervention's success. This information is essential for risk assessment and decision-making.
-
-%- **Scenario Analysis:** Epidemiologists can use probabilistic models to explore a wide range of scenarios and assess the potential impact of different interventions and policies. This aids in designing effective strategies for disease control and prevention.
-
-%- **Sensitivity Analysis:** Probabilistic modelling allows for sensitivity analysis, which helps identify which parameters or assumptions in the model have the most significant impact on outcomes. This information guides research priorities and resource allocation.
-
-%- **Incorporating Individual-Level Variation:** Probabilistic models can capture individual-level variations in disease transmission, susceptibility, and response to interventions. This is crucial for tailoring public health measures to different population segments.
-
-%- **Policy Decision Support:** Probabilistic modelling provides decision-makers with valuable insights into the expected outcomes of different policy choices. This aids in prioritizing resource allocation and optimizing public health interventions.
-
-%- **Adaptability:** As new data becomes available during an epidemic, probabilistic models can be updated and refined, allowing epidemiologists to continuously monitor and adapt their strategies in response to changing circumstances.
-
-Some key concepts and components of probabilistic modeling are as follows:
-
-- **Random Variables:** In probabilistic modeling, random variables are used to represent uncertain quantities or events. These variables can take on different values with associated probabilities.
-
-- **Probability Distributions:** A probability distribution describes how the values of a random variable are distributed or spread out.
+- **Probability Distributions:** A probability distribution describes how the values of a random variable are distributed or <font color='orange'>spread out</font>.
 
 - **Parameters:** Probability distributions are often characterized by parameters that determine their shape and behavior. For example, the mean and standard deviation of a normal distribution are parameters that describe its central tendency and spread.
 
-- **Bayesian Inference:** Bayesian probabilistic modeling is a framework that uses Bayes' theorem to update the probability distribution of a random variable based on new evidence or data. It combines **prior beliefs** (prior distribution) with observed data to form a **posterior distribution**, which represents the updated beliefs.
+- **Bayesian Inference:** Bayesian probabilistic modelling is a framework that uses Bayes' theorem to update the probability distribution of a random variable based on new evidence or data. It combines <font color='orange'>prior beliefs</font> (prior distribution) with observed data to form a <font color='orange'>posterior distribution</font>, which represents the updated beliefs.
 
-- **Monte Carlo Methods:** Monte Carlo methods are a class of computational techniques used to estimate complex probabilistic models through random sampling. They involve generating random samples from probability distributions to approximate quantities of interest.
+- **Monte Carlo Methods:** Monte Carlo methods are a class of computational techniques used to estimate complex probabilistic models through <font color='orange'>random sampling</font>. They involve generating random samples from probability distributions to approximate quantities of interest.
 
 
 ## Probabilistic programming
@@ -85,31 +67,31 @@ Some key concepts and components of probabilistic modeling are as follows:
 
 Probabilistic programming is a specialized approach to building and analyzing probabilistic models that offers several advantages for epidemiology and the study of infectious disease dynamics:
 
-- **Flexibility:** Probabilistic programming languages, such as Stan, Pyro, or Edward, provide a flexible framework for defining and customizing probabilistic models. This flexibility is crucial in epidemiology, where the complexity of disease transmission models can vary widely depending on the specific disease and the population under study.
+- **Flexibility:** <font color='orange'>Probabilistic programming languages</font>(PPLs), such as Stan, Pyro, Numpyro, PyMC, Turing.jl and other, provide a flexible framework for defining and customizing probabilistic models. This flexibility is crucial in epidemiology, where the complexity of disease transmission models can vary widely depending on the specific disease and the population under study.
 
-- **Uncertainty Quantification:** Probabilistic programming allows for the explicit representation and quantification of uncertainty. Epidemiological models often involve uncertain parameters and data, and probabilistic programming makes it easier to incorporate this uncertainty into the modelling process.
+- **Abstract modelling from inference:** Probabilistic programming languages abstract model formulation from inference. We can <font color='orange'>focus on the applied question</font>, and do not need to write samplers by hand. Instead, we can use robus and tests in battle samples provided by the PPLs.
 
-- **Bayesian Inference:** Probabilistic programming languages are particularly well-suited for Bayesian inference, which is a powerful statistical approach used in epidemiology. Bayesian methods enable the estimation of model parameters, predictions, and model comparisons while accounting for prior information and uncertainty.
+- **Uncertainty Quantification:** Probabilistic programming allows for the <font color='orange'>explicit representation</font> and quantification <font color='orange'>of uncertainty</font>. Epidemiological models often involve uncertain parameters and data, and probabilistic programming makes it easier to incorporate this uncertainty into the modelling process.
 
-- **Model Validation:** Probabilistic programming facilitates model validation by enabling researchers to compare model predictions with observed data using techniques like posterior predictive checks. This helps ensure that models accurately capture the underlying dynamics of infectious diseases.
 
-- **Hierarchical modelling:** Many epidemiological models involve hierarchical structures, where data at multiple levels (e.g., individuals, households, communities) are analyzed simultaneously. Probabilistic programming makes it easier to specify and fit hierarchical models, which can provide more accurate representations of complex disease transmission processes.
+- **Model Validation:** Probabilistic programming facilitates model validation by enabling researchers to compare model predictions with observed data using techniques like <font color='orange'>posterior predictive checks</font>. 
 
-- **Data Integration:** Probabilistic programming allows for the integration of various types of data sources, including clinical data, epidemiological surveillance data, and genomic data. This integration can improve the accuracy and informativeness of epidemiological models.
+- **Hierarchical modelling:** Many epidemiological models involve <font color='orange'>hierarchical structures</font>, where data at multiple levels (e.g., individuals, households, communities) are analyzed simultaneously. Probabilistic programming makes it easier to specify and fit hierarchical models capturing such structure.
+
+- **Data Integration:** Probabilistic programming facilitates the integration of various types of data. This integration can improve the accuracy and informativeness of epidemiological models.
 
 - **Model Selection and Comparison:** Epidemiologists often need to compare different model structures or assess the fit of alternative hypotheses. Probabilistic programming facilitates model selection and comparison through techniques like Bayesian model averaging and model evidence calculation.
 
-- **Transparent Communication:** Probabilistic programming encourages transparency in modelling and analysis. Researchers can clearly specify their assumptions, priors, and likelihood functions, making it easier to communicate and collaborate with other experts and stakeholders.
+- **Transparent Communication:** Probabilistic programming encourages <font color='orange'>transparency</font> in modelling and analysis. Researchers can clearly specify their assumptions, priors, and likelihood functions, making it easier to communicate and collaborate with other experts and stakeholders.
 
-- **Extensible Libraries:** Probabilistic programming languages often come with extensive libraries and tools for model development, inference, and visualization, reducing the implementation and computation burden for epidemiologists.
+- **Extensible Libraries:** Probabilistic programming languages often come with extensive libraries and <font color='orange'>tools</font> for model development, inference, and visualization, reducing the implementation and computation burden.
 
-In summary, probabilistic programming is a valuable tool for epidemiologists because it offers a flexible and powerful framework for modelling disease dynamics, quantifying uncertainty, and making data-informed decisions. It enhances the precision and transparency of epidemiological research, ultimately contributing to better public health outcomes.
 
 
 `````{admonition} Task
 :class: tip
-Find an example of a publication using Bayesian inference for epidemiology. For example, in spatial statistics, or disease transmission modelling. 
+Find a publication that applies Bayesian inference in the field of epidemiology, such as in spatial statistics or disease transmission modeling.
 
-- What Bayesian methods (MCMC / VI / ABC / etc) and models were used in the paper? 
-- What inference tools were used?
+- Identify which Bayesian methods (such as MCMC, VI, ABC, etc) and models were employed in the paper.
+- Determine the inference tools applied in the study, such as PPL usage, custom MCMC samplers, or specialized libraries.
 `````
