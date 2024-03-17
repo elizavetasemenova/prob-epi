@@ -94,4 +94,5 @@ Find a publication that applies Bayesian inference in the field of epidemiology,
 
 - Identify which Bayesian methods (such as MCMC, VI, ABC, etc) and models were employed in the paper.
 - Determine the inference tools applied in the study, such as PPL usage, custom MCMC samplers, or specialized libraries.
+- Do you think the modelling part of the study could be improved or extended in some way?
 `````
