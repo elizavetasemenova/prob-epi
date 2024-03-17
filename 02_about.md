@@ -26,6 +26,10 @@ Although the course is primarily <span style="color:orange">computational</span>
 
 Throughout the course, you will see a set of `Tasks` in the lecture notes. You need to submit answers to all of the tasks in one executable file (link to a Colab document or an `.ipynb`).
 
+```{margin}
+`Tasks` are to be solved individually and submitted. `Group tasks` are to be discussed with your peers during the class.
+```
+
 `````{admonition} Task
 :class: tip
 This is an example of the `Task` section.
