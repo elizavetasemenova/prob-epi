@@ -9,4 +9,5 @@ chapters:
 - file: 04_probability_distributions.ipynb
 - file: 05_Bayesian_inference.ipynb
 - file: 06_Monte_Carlo.ipynb
+- file: 07_MCMC.ipynb
 - file: 999_acknowledgements.md
