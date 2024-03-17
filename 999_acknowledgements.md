@@ -1,5 +1,6 @@
-# Acknowledgements and links
+# Acknowledgements, links and literature
 
+## Acknowledgements and links
 - AIMS and Ulrich personally for the invitation
 - [Machine Learning and Global Health](mlgh.net/people) network for many things, but in  particular for the (virtual, at the time) space where I learnt Numpyro through a reading group together with some MLGH members: Swapnil Mishra, Iwona Hawryluk, Tim Wolock, Theo Rashid, Giovanni Charles
 - Co-authors of the paper [Bayesian workflow for disease transmission modeling in Stan](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9164) and all particiapnts of the regular Thursday Stan call which enabled me to co-author
@@ -13,3 +14,10 @@
 - Stan Lazic, whose reflections on his book wiritng experience made me realise that I, most likelily, don't want to extend these lecture notes to a book :) 
 - Impeiral College London, [Epidemiology and Biostatistics](https://www.imperial.ac.uk/school-public-health/epidemiology-and-biostatistics/) department that recently hired me as a lecturer
 
+
+## Literature
+- "Statistical Inference", George Casella, Roger L. Berger
+- "Pattern Recognition and Machine Learning", Christopher M. Bishop
+- "Information Theory, Inference, and Learning Algorithms", David MacKay
+- "Bayesian Data Analysis", Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin
+- "Statistical Rethinking", Richard McElreath
