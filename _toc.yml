@@ -11,4 +11,5 @@ chapters:
 - file: 06_Monte_Carlo.ipynb
 - file: 07_MCMC.ipynb
 - file: 08_PPLs.ipynb
+- file: 09_intro_to_Numpyro.ipynb
 - file: 999_acknowledgements.md
