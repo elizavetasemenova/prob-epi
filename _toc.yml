@@ -12,4 +12,5 @@ chapters:
 - file: 07_MCMC.ipynb
 - file: 08_PPLs.ipynb
 - file: 09_intro_to_Numpyro.ipynb
+- file: 10_focus_on_priors.ipynb
 - file: 999_acknowledgements.md
