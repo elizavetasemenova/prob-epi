@@ -3,6 +3,7 @@
 ## Acknowledgements and links
 - AIMS and Ulrich personally for the invitation
 - [Machine Learning and Global Health](mlgh.net/people) network for many things, but in  particular for the (virtual, at the time) space where I learnt Numpyro through a reading group together with some MLGH members: Swapnil Mishra, Iwona Hawryluk, Tim Wolock, Theo Rashid, Giovanni Charles
+- [Deep Learning Indaba](https://deeplearningindaba.com/) for showing me how much ML enthisuams there is on the African continent and making me want to contribute 
 - Co-authors of the paper [Bayesian workflow for disease transmission modeling in Stan](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9164) and all particiapnts of the regular Thursday Stan call which enabled me to co-author
 - Lorenzo Ciardo from Kellogg College at Oxford for telling me about the Buffon's needle problem
 - Richard McEarlth for posting the [prior-likelihood conflict example](https://twitter.com/rlmcelreath/status/1701165075493470644)
