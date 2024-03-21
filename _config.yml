@@ -3,7 +3,8 @@
 
 title: Probabilistic Thinking, modelling and programming with applications in Epidemiology.
 author: Elizaveta Semenova
-copyright: "2024"  # Copyright year to be placed in the footer
+email: elizaveta.p.semenova@gmail.com
+# copyright: "2024"  # Copyright year to be placed in the footer
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -22,12 +23,13 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/elizavetasemenova/prob-epi  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
+
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository

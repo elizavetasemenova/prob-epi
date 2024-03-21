@@ -10,8 +10,11 @@ chapters:
 - file: 05_Bayesian_inference.ipynb
 - file: 06_Monte_Carlo.ipynb
 - file: 07_MCMC.ipynb
-- file: 08_PPLs.ipynb
+- file: 08_PPLs.md
 - file: 09_intro_to_Numpyro.ipynb
 - file: 10_focus_on_priors.ipynb
 - file: 11_Bayesian_workflow.ipynb
+- file: 12_model_comparison.ipynb
+- file: 13_glms.md
+- file: 14_logistic_regression.ipynb
 - file: 999_acknowledgements.md

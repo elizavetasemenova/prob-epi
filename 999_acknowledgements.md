@@ -13,7 +13,8 @@
     - [Nordic ProbAI 2022](https://probabilistic.ai/) lecture on Bayesian workflow
 - Kira Duesterwald and James Allingham for writing together the [DLI-23](https://github.com/deep-learning-indaba/indaba-pracs-2023) practical, which is used in the chapter on probability distributions and random variables
 - Stan Lazic, whose reflections on his book wiritng experience made me realise that I, most likelily, don't want to extend these lecture notes to a book :) 
-- Impeiral College London, [Epidemiology and Biostatistics](https://www.imperial.ac.uk/school-public-health/epidemiology-and-biostatistics/) department that recently hired me as a lecturer
+- [STPH](https://www.swisstph.ch/en/) where my own journey into Bayesian inference and spatial statistics began
+- Impeiral College London, [Epidemiology and Biostatistics](https://www.imperial.ac.uk/school-public-health/epidemiology-and-biostatistics/) department who recently hired me as a lecturer providing me with an opportunity to stay in academia and research for the long term
 
 
 ## Literature
