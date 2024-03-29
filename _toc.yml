@@ -17,4 +17,5 @@ chapters:
 - file: 12_model_comparison.ipynb
 - file: 13_glms.md
 - file: 14_logistic_regression.ipynb
+- file: 15_hierarchical_modelling.ipynb
 - file: 999_acknowledgements.md
