@@ -18,4 +18,5 @@ chapters:
 - file: 13_glms.md
 - file: 14_logistic_regression.ipynb
 - file: 15_hierarchical_modelling.ipynb
+- file: 16_AR.md
 - file: 999_acknowledgements.md
