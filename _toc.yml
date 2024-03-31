@@ -19,5 +19,6 @@ chapters:
 - file: 14_logistic_regression.ipynb
 - file: 15_hierarchical_modelling.ipynb
 - file: 16_AR.md
-- file: 17_GP_priors.md
+- file: 17_GP_priors.ipynb
+- file: 18_GP_inference.ipynb
 - file: 999_acknowledgements.md
