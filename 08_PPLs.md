@@ -29,7 +29,7 @@ Some (relatively) early Probabilistic programming languages and tools, such as B
 
 - `random` to make random variables
 - `constraint` to constraint variables e.g. to data
-- `infer` - returns the dsitribution of a variable
+- `infer` - returns the distribution of a variable
 
 The list of currently existing PPLs is overwhelmingly long and only keeps growing:
 
@@ -50,13 +50,13 @@ to name a few.
 
 ## How to chose a PPL?
 
-From the practical pointi of view, how can we decide which of the PPLs to chose?
+From the practical point of view, how can we decide which of the PPLs to choose?
 
 - <font color='orange'>Functionality</font>: evaluate the language's functionality by examining the availability of a wide range of probability distributions and samplers,
 - <font color='orange'>Oppenness to Customization</font>: consider whether the PPL allows you to define custom probability distributions and samplers,
 - <font color='orange'>Performance</font>: some PPLs may offer optimizations or parallel processing capabilities to improve performance,
 ```{margin}
-Speaking of conferences! I am co-organising StanCon 2024 in Oxford. Keep your eyes open for scholarship opportunties. We will use Numpyro in this course, but Stan is an excellent and an incredibly robust option.
+Speaking of conferences! I am co-organising StanCon 2024 in Oxford. Keep your eyes open for scholarship opportunities. We will use Numpyro in this course, but Stan is an excellent and an incredibly robust option.
 ```
 - <font color='orange'>Documentation</font>: the availability of well-documented resources, including official documentation, tutorials, and guides, can significantly impact your learning curve and productivity. A well-documented PPL makes it easier to understand and use its features effectively.
 - <font color='orange'>Community Support</font>: an active and supportive community can be an invaluable resource when you encounter challenges or have questions while working with the PPL. Community forums, discussion groups, and user-contributed content can provide guidance and solutions. Dedicated meetups and conferences.

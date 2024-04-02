@@ -24,7 +24,7 @@ If the surveillance tackles purely the temporal development of a health outcome,
 - **Outbreak Investigation:** Epidemiologists are often involved in <font color='orange'>investigating</font> disease outbreaks, such as foodborne illnesses, infectious disease outbreaks, or clusters of chronic diseases. They work to identify the source of the outbreak and implement measures to contain and prevent further spread.
 
 ```{margin}
-It is important to distinguish <font color='orange'>associative</font> stidies with those where researchers try to oncover <font color='orange'>causal</font> relashionships between risk factors and outcomes.
+It is important to distinguish <font color='orange'>associative</font> studies with those where researchers try to oncover <font color='orange'>causal</font> relationships between risk factors and outcomes.
 ```
 - **Identifying Risk Factors:** Epidemiological studies aim to identify the <font color='orange'>factors</font> that are <font color='orange'>associated</font> with increases likelihood of developing a particular disease. These risk factors can include genetic predisposition, environmental exposures, lifestyle choices, and social determinants of health.
 
@@ -41,7 +41,7 @@ Some models that we will build in this course are more relevant to <font color='
 ## Bayesian modelling
 
 ```{margin}
-You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditionla epidemioligy it is more common to use statistical and mechanistic models for such generation. Having said that, we will touch DGMs in this course too.
+You must have heard a lot recently about <font color='orange'>generative AI</font> and <font color='orange'>deep generative modelling (DGM)</font>. It is indeed the same 'generative' idea as we are talking here about. The difference is that DGM uses deep learning and neural network for the generative mechanism, and in traditional epidemiology it is more common to use statistical and mechanistic models for such generation. Having said that, we will touch DGMs in this course too.
 ```
 Bayesian modelling represents the fundamental focus of this course, addressing the question of "<font color='orange'>WHAT</font> models can describe the <font color='orange'>generative process</font> behind the observed data?" Throughout the course, we will use the terms "Bayesian" and "probabilistic" interchangeably.
 
