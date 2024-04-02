@@ -23,3 +23,4 @@
 - "Information Theory, Inference, and Learning Algorithms", David MacKay
 - "Bayesian Data Analysis", Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin
 - "Statistical Rethinking", Richard McElreath
+- "Bayesian optimisation", Roman Garnett
