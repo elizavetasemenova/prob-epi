@@ -4,7 +4,7 @@ These lecture notes cover the course which will be taught during three weeks fro
 
 ## Feedback
 
-If you notice typos, mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
+If you notice typos, mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`. In the case of typos, feel free to make a pull request to propose corrections.
 
 ## Content
 
