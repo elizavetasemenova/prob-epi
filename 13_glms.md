@@ -24,7 +24,7 @@ $$
 $$
 
 ```{margin}
-You might be more familiar with the terms 'frature' or 'independent variables' or 'covariate' other than 'predictor'. We will be using them interchangeably.
+You might be more familiar with the terms 'feature' or 'independent variables' or 'covariate' other than 'predictor'. We will be using them interchangeably.
 ```
 where $\beta$ is the row-vector of coefficients in a parametric model and $x$ is the column vector of predictors.
 
