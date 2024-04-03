@@ -88,7 +88,7 @@ Probabilistic programming is a specialized approach to building and analyzing pr
 
 
 
-`````{admonition} Task
+`````{admonition} Task 01
 :class: tip
 Find a publication that applies Bayesian inference in the field of epidemiology, such as in spatial statistics or disease transmission modeling.
 
