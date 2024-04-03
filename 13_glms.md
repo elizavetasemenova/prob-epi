@@ -72,7 +72,7 @@ $$
 In this case, the probability $p$ is linked to the predictor function $\eta$ through the ’logistic’ transformation, $\text{logit}(·)$, which transforms the values of the predictor function, usually in the continuous real space, to the [0,1] range of probabilities. In this model, the ’probit’ link function can also be used. 
 
 
-## Categoricla model
+## Categorical model
 ```{margin}
 Categorical model is also called "multinomial".
 ```
