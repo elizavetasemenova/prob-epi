@@ -6,7 +6,7 @@ sphinxcontrib-tikz
 numpyro
 jax
 geopandas
-scipy==1.12.0
 arviz
+scipy==1.12.0
 seaborn
 pyppeteer
