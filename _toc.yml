@@ -21,4 +21,5 @@ chapters:
 - file: 16_AR.md
 - file: 17_GP_priors.ipynb
 - file: 18_GP_inference.ipynb
+- file: 19_geostatistics.ipynb
 - file: 999_acknowledgements.md
