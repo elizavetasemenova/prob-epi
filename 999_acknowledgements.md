@@ -26,3 +26,4 @@
 - "Statistical Rethinking", Richard McElreath
 - "Bayesian optimisation", Roman Garnett
 - "A Conceptual Introduction to Hamiltonian Monte Carlo", Michael Betancourt
+- "Hierarchical Modeling and Analysis for Spatial Data", Banerjee, Carlin, Gelfand

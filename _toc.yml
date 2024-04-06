@@ -23,4 +23,5 @@ chapters:
 - file: 18_GP_inference.ipynb
 - file: 19_geostatistics.ipynb
 - file: 20_areal_data.ipynb
+- file: 21_LGCP.ipynb
 - file: 999_acknowledgements.md
