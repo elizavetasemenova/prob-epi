@@ -10,5 +10,5 @@ arviz
 scipy==1.12.0
 seaborn
 pyppeteer
-sklearn
+scikit-learn
 networkx
