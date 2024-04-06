@@ -24,4 +24,6 @@ chapters:
 - file: 19_geostatistics.ipynb
 - file: 20_areal_data.ipynb
 - file: 21_LGCP.ipynb
+- file: 22_ODEs.ipynb
+- file: 23_ID_modelling.ipynb
 - file: 999_acknowledgements.md
