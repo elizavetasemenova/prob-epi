@@ -27,3 +27,4 @@
 - "Bayesian optimisation", Roman Garnett
 - "A Conceptual Introduction to Hamiltonian Monte Carlo", Michael Betancourt
 - "Hierarchical Modeling and Analysis for Spatial Data", Banerjee, Carlin, Gelfand
+- "Time Series Analysis and Its Applications: With R Examples", Robert H. Shumway
