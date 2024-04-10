@@ -26,4 +26,5 @@ chapters:
 - file: 21_LGCP.ipynb
 - file: 22_ODEs.ipynb
 - file: 23_ID_modelling.ipynb
+- file: 24_other.ipynb
 - file: 999_acknowledgements.md
