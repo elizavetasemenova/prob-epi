@@ -1,3 +1,3 @@
 https://elizavetasemenova.github.io/prob-epi
 
-To correct typos, please send pull requests.
+To correct typos, please make pull requests.
