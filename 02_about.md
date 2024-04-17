@@ -1,10 +1,16 @@
 # About this course
 
-These lecture notes cover the course which will be taught during three weeks from 25 March to 12 April 2024 to a MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. After the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
+This online book consists of lecture notes of the course which will I taught during three weeks from 25 March to 12 April 2024 to the inaugural MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. 
+
+Please note that the book is a WORK IN PROGRESS.
+
+After the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
 
 ## Feedback
 
-If you notice typos, mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`. In the case of typos, feel free to make a pull request to propose corrections.
+In you spot any typos, feel free to make a pull request on the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) to propose corrections.
+
+If you notice mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com` or create an issue on GitHub.
 
 ## Content
 
