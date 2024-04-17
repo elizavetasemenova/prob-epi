@@ -8,7 +8,9 @@ After the course, I plan to keep improving and expanding the materials since the
 
 ## Feedback
 
-In you spot any typos, feel free to make a pull request on the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) to propose corrections.
+If you enjoyed the content and/or learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository.
+
+In you spot any typos, feel free to make a pull request to propose corrections.
 
 If you notice mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com` or create an issue on GitHub.
 
