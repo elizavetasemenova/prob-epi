@@ -12,13 +12,14 @@ chapters:
 - file: 07_MCMC.ipynb
 - file: 08_PPLs.md
 - file: 09_intro_to_Numpyro.ipynb
+- file: 09a_JAX_idioms.ipynb
 - file: 10_focus_on_priors.ipynb
 - file: 11_Bayesian_workflow.ipynb
 - file: 12_model_comparison.ipynb
-- file: 13_glms.md
+- file: 13_glms.ipynb
 - file: 14_logistic_regression.ipynb
 - file: 15_hierarchical_modelling.ipynb
-- file: 16_AR.md
+- file: 16_AR.ipynb
 - file: 17_GP_priors.ipynb
 - file: 18_GP_inference.ipynb
 - file: 19_geostatistics.ipynb
@@ -27,4 +28,5 @@ chapters:
 - file: 22_ODEs.ipynb
 - file: 23_ID_modelling.ipynb
 - file: 24_other.ipynb
+- file: 12_BNN.ipynb
 - file: 999_acknowledgements.md
