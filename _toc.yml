@@ -12,7 +12,7 @@ chapters:
 - file: 07_MCMC.ipynb
 - file: 08_PPLs.md
 - file: 09_intro_to_Numpyro.ipynb
-- file: 09a_JAX_idioms.ipynb
+- file: 09a_JAX_patterns.ipynb
 - file: 10_focus_on_priors.ipynb
 - file: 11_Bayesian_workflow.ipynb
 - file: 12_model_comparison.ipynb
