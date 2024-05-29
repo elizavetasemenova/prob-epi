@@ -1,4 +1,5 @@
-# Bayesian Modelling and Probabilistic Programming with examples from Epidemiology.
+# Bayesian Modelling and Probabilistic Programming with Numpyro
+## and examples from Epidemiology.
 
 Welcome to the course!
 
