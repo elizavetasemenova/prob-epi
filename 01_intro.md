@@ -2,7 +2,7 @@
 
 Welcome to the course! The course materials are a work in progress. For the latest version, as the PDF may not render everything correctly, visit <https://elizavetasemenova.github.io/prob-epi/>.
 
-If you would like to cite these lecture notes, please use
+If you enjoyed and/or learnt from these materials, please leave a star on GitHub and/or cite
 
 ```
 @book{semenova24,

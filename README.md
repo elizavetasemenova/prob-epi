@@ -4,7 +4,7 @@ To correct typos, please make pull requests. If these notes get published, I wil
 
 For more substantial suggestions about the course content, such as desired topics, please use issues.
 
-If you enjoyed and/or learnt from these materials, please leave a star and/or cite
+If you enjoyed and/or learnt from these materials, please leave a star on GitHub and/or cite
 
 ```
 @book{semenova24,
