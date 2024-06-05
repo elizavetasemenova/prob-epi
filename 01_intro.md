@@ -14,7 +14,7 @@ If you enjoyed and/or learnt from these materials, please leave a star on GitHub
 
 ## Conda environment
 
-To run all code examples from the counrse, the recommended environemnt can be created as follows:
+To run the code examples from the course, the recommended environemnt can be created as follows:
 
 ```
 conda create -n aims python=3.9
