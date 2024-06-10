@@ -1,6 +1,6 @@
 # Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.
 
-Welcome to the course! The course materials are a work in progress. For the latest version, as the PDF may not render everything correctly, visit <https://elizavetasemenova.github.io/prob-epi/>.
+Welcome to the course! The course materials are a WORK IN PROGRESS. For the latest version, as the PDF may not render everything correctly, visit <https://elizavetasemenova.github.io/prob-epi/>.
 
 ## About the author
 
@@ -13,17 +13,21 @@ More details abot my work are avialable [here](https://www.elizaveta-semenova.co
 
 ## Giving feedback
 
-To correct typos, please make pull requests on [GitHub](https://github.com/elizavetasemenova/prob-epi). If these notes ever get published, I will list your name in Acknowledgements.
+After the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
 
-For more substantial suggestions about the course content, such as desired topics, please use issues.
+- To correct typos, please make pull requests on [GitHub](https://github.com/elizavetasemenova/prob-epi). If these notes ever get published, I will list your name in Acknowledgements.
 
+- For more substantial suggestions about the course content, such as desired topics, please use issues on [GitHub](https://github.com/elizavetasemenova/prob-epi) or email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
-If you enjoyed and/or learnt from these materials, please leave a star on GitHub and/or cite
+```{margin}
+Acknowledging here that learning does not always have to be enjoynable.
+```
+- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository and/or cite
 
 ```
 @book{semenova24,
   author = {Semenova, Elizaveta},
-  title = {Bayesian Modelling and Probabilistic Programming with Numpyro, and examples from Epidemiology.},
+  title = {Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.},
   year = {2024}
 }
 ```
@@ -48,7 +52,7 @@ conda install anaconda::seaborn
 pip install pyppeteer
 ```
 
-## Table of contents
+%## Table of contents
 
-```{tableofcontents}
-```
+%```{tableofcontents}
+%```

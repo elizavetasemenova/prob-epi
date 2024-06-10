@@ -2,18 +2,6 @@
 
 This online book consists of lecture notes of the course which will I taught during three weeks from 25 March to 12 April 2024 to the inaugural MSc ["AI for Science"](https://ai.aims.ac.za/) cohort at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. 
 
-Please note that the book is a WORK IN PROGRESS.
-
-After the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
-
-## Feedback
-
-If you enjoyed the content and/or learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository.
-
-In you spot any typos, feel free to make a pull request to propose corrections.
-
-If you notice mistakes or have any other feedback, please email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com` or create an issue on GitHub.
-
 ## Content
 
 In this course we will cover such topics as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations for disease transmission modelling. 
