@@ -39,8 +39,5 @@ conda install anaconda::seaborn
 pip install pyppeteer
 ```
 
-
-## Table of contents
-
 ```{tableofcontents}
 ```
