@@ -1,6 +1,15 @@
-# Bayesian Modelling and Probabilistic Programming with Numpyro, and examples from Epidemiology.
+# Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.
 
 Welcome to the course! The course materials are a work in progress. For the latest version, as the PDF may not render everything correctly, visit <https://elizavetasemenova.github.io/prob-epi/>.
+
+## About the author
+
+These lecture notes were written by Elizaveta (a.k.a. Liza) Semenova. I am a lecturer in Biostatistics, Computational Epidemiology and Machine Learning at Imperial College London. My work is centered around scalable and flexible methods for spatiotemporal statistics and Bayesian machine learning with applications in epidemiology. This course is meant to set you up well for doing similar research. 
+
+Most recently, my focus has been on using deep generative modelling to power MCMC inference in classical spatial statistics, as well as adaptive survey design. Even though this course does not touch these subjects, feel free to reach out to discuss. 
+
+More details abot my work are avialable [here](https://www.elizaveta-semenova.com/).
+
 
 ## Giving feedback
 
@@ -38,6 +47,8 @@ conda install conda-forge::arviz
 conda install anaconda::seaborn
 pip install pyppeteer
 ```
+
+## Table of contents
 
 ```{tableofcontents}
 ```
