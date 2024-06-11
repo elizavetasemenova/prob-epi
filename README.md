@@ -11,8 +11,10 @@ If you enjoyed and/or learnt from these materials, please leave a star on GitHub
 ```
 @book{semenova24,
   author = {Semenova, Elizaveta},
-  title = {Bayesian Modelling and Probabilistic Programming with Numpyro, and examples from Epidemiology.},
-  year = {2024}
+  title = {Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.},
+  year = {2024},
+  source = {https://elizavetasemenova.github.io/prob-epi},
+  doi = {https://doi.org/10.5281/zenodo.11550659}
 }
 ```
 
