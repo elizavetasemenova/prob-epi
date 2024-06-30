@@ -22,7 +22,7 @@ After the course, I plan to keep improving and expanding the materials since the
 ```{margin}
 Acknowledging here that learning does not always have to be enjoynable.
 ```
-- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository and/or cite
+- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository; if you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
 
 ```
 @book{semenova24,
