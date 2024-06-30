@@ -19,7 +19,7 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - references.bib
+  - assets/references.bib
 
 # Information about where the book exists on the web
 repository:
@@ -49,3 +49,5 @@ parse:
 sphinx:
   extra_extensions:
     - sphinxcontrib.tikz
+  config:
+    bibtex_reference_style: author_year
