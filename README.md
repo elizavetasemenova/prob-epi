@@ -6,7 +6,7 @@ To correct typos, please make pull requests on [GitHub](https://github.com/eliza
 
 For more substantial suggestions about the course content, such as desired topics, please use issues.
 
-If you enjoyed and/or learnt from these materials, please leave a star on GitHub and/or cite
+- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository; if you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
 
 ```
 @book{semenova24,
