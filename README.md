@@ -2,11 +2,13 @@ https://elizavetasemenova.github.io/prob-epi
 
 ## Giving feedback
 
-To correct typos, please make pull requests on [GitHub](https://github.com/elizavetasemenova/prob-epi). If these notes ever get published, I will list your name in Acknowledgements.
+- To correct typos, please make pull requests on [GitHub](https://github.com/elizavetasemenova/prob-epi). If these notes ever get published, I will list your name in Acknowledgements.
 
-For more substantial suggestions about the course content, such as desired topics, please use issues.
+- For more substantial suggestions about the course content, such as desired topics, please use issues on [GitHub](https://github.com/elizavetasemenova/prob-epi) or email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
-- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository; if you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
+- If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository. 
+
+- If you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
 
 ```
 @book{semenova24,
