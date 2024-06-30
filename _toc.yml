@@ -28,5 +28,4 @@ chapters:
 - file: 22_ODEs.ipynb
 - file: 23_ID_modelling.ipynb
 - file: 24_other.ipynb
-- file: 12_BNN.ipynb
 - file: 999_acknowledgements.md
