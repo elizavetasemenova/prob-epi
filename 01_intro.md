@@ -8,7 +8,7 @@ These lecture notes were written by Elizaveta (a.k.a. Liza) Semenova. I am a lec
 
 Most recently, my focus has been on using deep generative modelling to power MCMC inference in classical spatial statistics, as well as adaptive survey design. Even though this course does not touch these subjects, feel free to reach out to discuss. 
 
-More details abot my work are avialable [here](https://www.elizaveta-semenova.com/).
+More details about my work are available [here](https://www.elizaveta-semenova.com/).
 
 
 ## Giving feedback
@@ -20,7 +20,7 @@ After the course, I plan to keep improving and expanding the materials since the
 - For more substantial suggestions about the course content, such as desired topics, please use issues on [GitHub](https://github.com/elizavetasemenova/prob-epi) or email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
 ```{margin}
-Acknowledging here that learning does not always have to be enjoynable.
+Acknowledging here that learning does not always have to be enjoyable.
 ```
 - If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository. 
 
@@ -38,7 +38,7 @@ Acknowledging here that learning does not always have to be enjoynable.
 
 ## Conda environment
 
-To run the code examples from the course, the recommended Conda environemnt can be created as follows:
+To run the code examples from the course, the recommended Conda environment can be created as follows:
 
 ```
 conda create -n aims python=3.9
