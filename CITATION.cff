@@ -1,7 +1,11 @@
-@book{semenova24,
-  author = {Semenova, Elizaveta},
-  title = {Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.},
-  year = {2024},
-  source = {https://elizavetasemenova.github.io/prob-epi},
-  doi = {https://doi.org/10.5281/zenodo.11550659}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Semenova"
+  given-names: "Elizaveta"
+  orcid: "https://orcid.org/0000-0002-8271-2575"
+title: "Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology."
+version: v1.0.0
+doi: 10.5281/zenodo.11550659
+date-released: 2024-06-19
+url: "https://github.com/elizavetasemenova/prob-epi"
