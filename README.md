@@ -11,12 +11,14 @@ https://elizavetasemenova.github.io/prob-epi
 - If you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
 
 ```
-@book{semenova24,
-  author = {Semenova, Elizaveta},
-  title = {Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.},
-  year = {2024},
-  source = {https://elizavetasemenova.github.io/prob-epi},
-  doi = {https://doi.org/10.5281/zenodo.11550659}
+@software{Semenova_Bayesian_Modelling_and_2024,
+author = {Semenova, Elizaveta},
+doi = {10.5281/zenodo.11550659},
+month = jun,
+title = {{Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.}},
+url = {https://github.com/elizavetasemenova/prob-epi},
+version = {v1.0.0},
+year = {2024}
 }
 ```
 
