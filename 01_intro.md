@@ -1,12 +1,12 @@
-# Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.
+# Bayesian modelling with Numpyro and deep generative surrogates for epidemiology.
 
-Welcome to the course! The course materials are a WORK IN PROGRESS. For the latest version, as the PDF may not render everything correctly, visit <https://elizavetasemenova.github.io/prob-epi/>.
+Welcome to the course! The course materials are a WORK IN PROGRESS. If you are using the PDF, please refer to the online content at <https://elizavetasemenova.github.io/prob-epi/> for the latest updates, as the PDF may not render everything accurately.
 
 ## About the author
 
-These lecture notes were written by Elizaveta (a.k.a. Liza) Semenova. I am a lecturer in Biostatistics, Computational Epidemiology and Machine Learning at Imperial College London. My work is centered around scalable and flexible methods for spatiotemporal statistics and Bayesian machine learning with applications in epidemiology. This course is meant to set you up well for doing similar research. 
+These lecture notes were written by <span style="color:orange">Elizaveta Semenova</span> (a.k.a. Liza). I am a lecturer in Biostatistics, Computational Epidemiology and Machine Learning at Imperial College London. My work is centered around scalable and flexible methods for spatiotemporal statistics and Bayesian machine learning using probabilsitic programming with applications in epidemiology. This course is meant to set you up well for doing similar research. 
 
-Most recently, my focus has been on using deep generative modelling to power MCMC inference in classical spatial statistics, as well as adaptive survey design. Even though this course does not touch these subjects, feel free to reach out to discuss. 
+Most recently, my focus has been on using deep generative models to power MCMC inference in classical spatial statistics. It turns out that the same method works for a much wider range of applications, including disease transmission modelling! In part, this course does touch on these subjects. Feel free to reach out to discuss the landscape. 
 
 More details about my work are available [here](https://www.elizaveta-semenova.com/).
 
@@ -27,12 +27,14 @@ Acknowledging here that learning does not always have to be enjoyable.
 - If you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
 
 ```
-@book{semenova24,
-  author = {Semenova, Elizaveta},
-  title = {Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.},
-  year = {2024},
-  source = {https://elizavetasemenova.github.io/prob-epi},
-  doi = {https://doi.org/10.5281/zenodo.11550659}
+@software{Semenova_Bayesian_Modelling_and_2024,
+author = {Semenova, Elizaveta},
+doi = {10.5281/zenodo.11550659},
+month = jun,
+title = {{Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.}},
+url = {https://github.com/elizavetasemenova/prob-epi},
+version = {v1.0.0},
+year = {2024}
 }
 ```
 
