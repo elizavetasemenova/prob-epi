@@ -8,13 +8,13 @@ This online book consists of lecture notes of the course which I taught during
 of MSc ["AI for Science"](https://ai.aims.ac.za/) at the [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.za/), South Africa. 
 
 
-The title of the course for the first cohort was "Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology''.
+The title of the course for the first cohort was **"Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology''**.
 
-The title of the course for the second cohort is "Bayesian Modelling with Numpyro and Deep Generative Surrogates for Epidemiology''.
+The title of the course for the second cohort is **"Bayesian Modelling with Numpyro and Deep Generative Surrogates for Epidemiology''**.
 
 ## Abstract
 
-In this course we will explore a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations and agent-based models for disease transmission modelling. 
+In this course we will explore a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs) and agent-based models (ABMs) for disease transmission modelling. 
 
 Using the probabilistic programming language `Numpyro`, we will construct probabilistic models and perform Bayesian inference to quantify uncertainty in model predictions and parameter estimates. 
 

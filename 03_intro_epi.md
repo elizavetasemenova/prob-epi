@@ -9,7 +9,7 @@ Let's uncover each of the three key terms of the course - **epidemiology**, **Ba
 
 Epidemiology serves as the underlying rationale in this course, explaining <font color='orange'>WHY</font> we develop the probabilistic models we'll be examining. Essentially, it addresses the question: 'What real-world phenomena are we aiming to analyse using these models?'
 
-<font color='orange'>Epidemiology</font> studies human health. To be more specific, it is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyse *data* to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
+<font color='orange'>Epidemiology</font> studies human health. To be more specific, it is the study of how diseases and health-related events are distributed within populations and the factors that influence these distributions. It is a branch of public health that focuses on understanding the patterns, causes, and effects of diseases and health conditions on a large scale. Epidemiologists collect and analyse data to investigate the occurrence of health outcomes, their risk factors, and the impact of various interventions or preventive measures.
 
 Epidemiological studies are essential for understanding the health of populations, identifying health disparities, and guiding public health efforts to improve the well-being of communities and societies.
 

@@ -6,21 +6,21 @@ Welcome to the course! The course materials are a WORK IN PROGRESS. If you are u
 
 These lecture notes were written by <span style="color:orange">Elizaveta Semenova</span> (a.k.a. Liza). I am a lecturer in Biostatistics, Computational Epidemiology and Machine Learning at Imperial College London. My work is centered around scalable and flexible methods for spatiotemporal statistics and Bayesian machine learning using probabilsitic programming with applications in epidemiology. This course is meant to set you up well for doing similar research. 
 
-Most recently, my focus has been on using deep generative models to power MCMC inference in classical spatial statistics. It turns out that the same method works for a much wider range of applications, including disease transmission modelling! In part, this course does touch on these subjects. Feel free to reach out to discuss the landscape. 
+Most recently, my focus has been on using deep generative models to power MCMC inference in classical spatial statistics. It turns out that the same method works for a much wider range of applications, including disease transmission modelling! In part, this course does touch on these topics. Feel free to reach out to discuss the broader landscape of research. 
 
 More details about my work are available [here](https://www.elizaveta-semenova.com/).
 
 
 ## Giving feedback
 
-After the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
+After delivering the course, I plan to keep improving and expanding the materials since they will be helpful for future students and collaborators.
 
 - To correct typos, please make pull requests on [GitHub](https://github.com/elizavetasemenova/prob-epi). If these notes ever get published, I will list your name in Acknowledgements.
 
 - For more substantial suggestions about the course content, such as desired topics, please use issues on [GitHub](https://github.com/elizavetasemenova/prob-epi) or email them to `elizaveta [dot] p [dot] [insert my surname] [at] gmail [dot] com`.
 
 ```{margin}
-Acknowledging here that learning does not always have to be enjoyable.
+"and/or" is to acknowledge that learning does not always have to be enjoyable.
 ```
 - If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository. 
 
@@ -40,7 +40,7 @@ year = {2024}
 
 ## Conda environment
 
-To run the code examples from the course, the recommended Conda environment can be created as follows:
+To run the code examples from the course, you could either download separate notebooks and run them on Colab, or exxecute the notebooks locally. The recommended Conda environment can be created as follows:
 
 ```
 conda create -n aims python=3.9
