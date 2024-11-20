@@ -24,7 +24,7 @@ After delivering the course, I plan to keep improving and expanding the material
 ```
 - If you enjoyed the content **and / or** learnt from it, please leave a 'star' to the [book's GitHub](https://github.com/elizavetasemenova/prob-epi) repository. 
 
-- If you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite
+- If you are creating a written document (a paper, report, book chapter) where you use what you've learnt here, please cite 
 
 ```
 @software{Semenova_Bayesian_Modelling_and_2024,

@@ -4,7 +4,7 @@
 title: Probabilistic Thinking, modelling and programming with applications in Epidemiology.
 author: Elizaveta Semenova
 email: elizaveta.p.semenova@gmail.com
-# copyright: "2024"  # Copyright year to be placed in the footer
+copyright: "2024"  # Copyright year to be placed in the footer
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
