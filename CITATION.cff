@@ -4,7 +4,7 @@ authors:
 - family-names: "Semenova"
   given-names: "Elizaveta"
   orcid: "https://orcid.org/0000-0002-8271-2575"
-title: "Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology."
+title: "Bayesian Modelling with Numpyro and Deep Generative Surrogates for Epidemiology."
 version: v1.0.0
 doi: 10.5281/zenodo.11550659
 date-released: 2024-06-19
