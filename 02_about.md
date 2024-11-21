@@ -10,7 +10,7 @@ of MSc ["AI for Science"](https://ai.aims.ac.za/) at the [African Institute for 
 
 The title of the course for the first cohort was **"Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology''**.
 
-The title of the course for the second cohort is **"Bayesian Modelling with Numpyro and Deep Generative Surrogates for Epidemiology''**.
+The title of the course for the second cohort is **"Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for epidemiology.''**.
 
 ## Abstract
 

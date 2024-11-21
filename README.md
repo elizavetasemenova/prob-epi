@@ -15,7 +15,7 @@ https://elizavetasemenova.github.io/prob-epi
 author = {Semenova, Elizaveta},
 doi = {10.5281/zenodo.11550659},
 month = jun,
-title = {{Bayesian Modelling and Probabilistic Programming with Numpyro and examples from Epidemiology.}},
+title = {{Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology.}},
 url = {https://github.com/elizavetasemenova/prob-epi},
 version = {v1.0.0},
 year = {2024}
