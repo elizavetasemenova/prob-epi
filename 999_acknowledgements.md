@@ -18,16 +18,13 @@
 - Imperial College London, [Epidemiology and Biostatistics](https://www.imperial.ac.uk/school-public-health/epidemiology-and-biostatistics/) department who recently hired me as a lecturer providing me with an opportunity to stay in academia and research for the long term.
 
 ## Literature
-- "Statistical Inference", George Casella, Roger L. Berger
 - "Pattern Recognition and Machine Learning", Christopher M. Bishop
 - "Information Theory, Inference, and Learning Algorithms", David MacKay
 - "Probabilistic Machine Learning: An Introduction", Kevin Murphy
 - "Bayesian Data Analysis", Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin
 - "Statistical Rethinking", Richard McElreath
 - "Bayesian optimisation", Roman Garnett
-- "A Conceptual Introduction to Hamiltonian Monte Carlo", Michael Betancourt
 - "Hierarchical Modeling and Analysis for Spatial Data", Banerjee, Carlin, Gelfand
-- "Time Series Analysis and Its Applications: With R Examples", Robert H. Shumway
 
 ## Funding
 
