@@ -40,6 +40,10 @@ Throughout the course, you will see a set of `Tasks` in the lecture notes. You n
 
 `````{admonition} Task
 :class: tip
-This is an example of the `Task` section.
+This is an example of a `Task` section.
 `````
 
+
+`````{admonition} Group Task
+This is an example of a `Group Task` section.
+`````
