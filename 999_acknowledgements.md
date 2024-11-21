@@ -20,7 +20,6 @@
 ## Literature
 - "Pattern Recognition and Machine Learning", Christopher M. Bishop
 - "Information Theory, Inference, and Learning Algorithms", David MacKay
-- "Probabilistic Machine Learning: An Introduction", Kevin Murphy
 - "Bayesian Data Analysis", Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin
 - "Statistical Rethinking", Richard McElreath
 - "Bayesian optimisation", Roman Garnett
