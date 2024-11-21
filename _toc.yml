@@ -22,7 +22,8 @@ chapters:
 - file: 16_AR.ipynb
 - file: 17_GP_priors.ipynb
 - file: 18_GP_inference.ipynb
-- file: 19_geostatistics.ipynb
+- file: 19_spat_stat.ipynb
+- file: 19a_geostatistics.ipynb
 - file: 20_areal_data.ipynb
 - file: 21_LGCP.ipynb
 - file: 22_ODEs.ipynb

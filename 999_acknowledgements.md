@@ -1,6 +1,5 @@
-# Acknowledgements, links and literature
+# Acknowledgements and links
 
-## Acknowledgements and links
 - AIMS-SA and Ulrich Paquet personally for the invitation. Being invited to teach at AIMS is a privilege!
 - The students of the first cohort of the "AI for Science" Masters at AIMS South Africa. Out of 31 students, 28 opted to take the course. Plus, 13 students from Stellenbosch joined remotely. I value your trust! 
 - [Machine Learning and Global Health](mlgh.net/people) network for many things, but in  particular for the (virtual, at the time) space where I learnt Numpyro through a reading group together with some MLGH members: Swapnil Mishra, Iwona Hawryluk, Tim Wolock, Theo Rashid, Giovanni Charles. And, of course, to Seth Flaxman who hired me at the time. 
@@ -23,7 +22,6 @@
 - "Bayesian Data Analysis", Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin
 - "Statistical Rethinking", Richard McElreath
 - "Bayesian optimisation", Roman Garnett
-- "Hierarchical Modeling and Analysis for Spatial Data", Banerjee, Carlin, Gelfand
 
 ## Funding
 

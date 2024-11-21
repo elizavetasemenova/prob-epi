@@ -1,4 +1,4 @@
-# Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology
+# Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology.
 
 Welcome to the course! The course materials are a WORK IN PROGRESS. If you are using the PDF, please refer to the online content at <https://elizavetasemenova.github.io/prob-epi/> for the latest updates, as the PDF may not render everything accurately.
 
