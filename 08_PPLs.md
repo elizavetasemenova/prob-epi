@@ -48,6 +48,8 @@ The list of currently existing PPLs is overwhelmingly long and only keeps growin
 
 to name a few.
 
+For a wider review of the modern landscape of Bayesian inference software see {cite}`vstrumbelj2024past`.
+
 ## How to chose a PPL?
 
 From the practical point of view, how can we decide which of the PPLs to choose?
