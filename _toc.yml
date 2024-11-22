@@ -29,6 +29,6 @@ chapters:
 - file: 22_ODEs.ipynb
 - file: 23_ID_modelling.ipynb
 - file: 24_ABMs.ipynb
-- file: 999_other.ipynb
+- file: 999_upcoming.ipynb
 - file: 999_acknowledgements.md
 - file: 999_bibliography.md
