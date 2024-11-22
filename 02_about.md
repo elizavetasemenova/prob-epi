@@ -14,7 +14,7 @@ The title of the course for the second cohort is **"Bayesian Modelling and Proba
 
 ## Abstract
 
-In this course we will explore a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs) and agent-based models (ABMs) for disease transmission modelling. 
+In this course we will explore a range of topics in Bayesian modelling, such as <span style="color:orange">Bayesian inference</span>, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs) and agent-based models (ABMs) for disease transmission modelling. 
 
 Using the probabilistic programming language `Numpyro`, we will construct probabilistic models and perform Bayesian inference to quantify uncertainty in model predictions and parameter estimates. 
 
