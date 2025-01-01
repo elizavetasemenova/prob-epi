@@ -30,6 +30,6 @@ chapters:
 - file: 23_ID_modelling.ipynb
 - file: 24_ABMs.ipynb
 - file: 25_surrogates.ipynb
-- file: 999_upcoming.ipynb
+- file: 999_upcoming.md
 - file: 999_acknowledgements.md
 - file: 999_bibliography.md
