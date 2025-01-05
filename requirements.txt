@@ -5,6 +5,7 @@ ghp-import
 sphinxcontrib-tikz
 numpyro
 jax
+flax
 geopandas
 arviz
 scipy==1.12.0
