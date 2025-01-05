@@ -30,11 +30,13 @@ To run the code examples from the course, the recommended Conda environemnt can 
 conda create -n aims python=3.9
 conda activate aims
 conda install -c conda-forge jupyter-book
+conda install conda-forge::numpyro
+conda install conda-forge::jax
+pip install -U jax
+pip install flax
 conda install conda-forge::matplotlib
 conda install numpy
 conda install conda-forge::ghp-import
-conda install conda-forge::numpyro
-conda install conda-forge::jax
 pip install sphinxcontrib-tikz
 conda install conda-forge::geopandas
 conda install conda-forge::arviz
