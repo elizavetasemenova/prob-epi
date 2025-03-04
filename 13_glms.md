@@ -64,7 +64,7 @@ In this case, the observations are binary $y \in (0,1)$. These binary observatio
 
 $$
 \begin{align*}
-p(y|\eta) &= \mathcal{\text{Binom}} (p),\\
+p(y|p) &= \mathcal{\text{Binom}} (p),\\
 \text{logit}(p) &= \eta.
 \end{align*}
 $$
